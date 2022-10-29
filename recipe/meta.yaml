@@ -10,7 +10,7 @@ source:
   sha256: "05a21fcf4eda1a5eddbd291890ade23fc5ddaa6bb98f2ee23d2d384ed14f086d"
 
 build:
-  number: 4
+  number: 5
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
 requirements:
@@ -25,8 +25,7 @@ requirements:
 
 about:
   home: "https://github.com/hkwi/python-geohash"
-  license: "Apache 2.0"
-  license_family: "Apache"
+  license: Apache-2.0
   license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE-2.0.txt'
   summary: "Fast, accurate python geohashing library"
 
